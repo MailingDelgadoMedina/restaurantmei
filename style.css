@@ -2,8 +2,9 @@
 body{
     background-color: bisque;
     margin: 0px;
-
+padding: 0px;
 }
+
 
 nav ul{
     display: flex;
@@ -26,13 +27,56 @@ nav ul{
 .parent{
 display: flex;
 border: 6px solid red;
+padding: 30px;
+text-align: center;
+
+   padding: 10px;
+   justify-content: center;
+ 
+   margin:5% 25%;
+
 }
 
+
+
+.parent2{
+  
+    display: flex;
+    border: 6px solid red;
+ padding: 10px;
+    text-align: center;
+    margin:5% 25%;
+    justify-content: center;
+    width:600px;
+     
+    }
+
+
+p{
+
+    width:auto;
+        object-fit: fill;
+        font-size:10px;
+}
 .children1{
     background-color: white;
     border: 6px solid green;
+   
+  
 }
 
 .children2{
     border: 6px solid blue;
+   
+
+.children3{
+    border: 6px solid blue;
+    background-color: white;
+     
+}
+
+.children4{
+    background-color: white;
+    border: 6px solid green;
+
 }
